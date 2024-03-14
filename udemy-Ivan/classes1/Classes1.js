@@ -34,7 +34,7 @@ detectPersonalLevel(personaMovieDB.count);
 
 function rememberOfFilms() {
     for (let i = 0; i < 2; i++){
-        const answerMoviePrompt = prompt('Один из последних просмотренных фильмов?', '');
+        const answerMoviePrompt = prompt('Один из последних просмотренных фильмов?', '').trim();
     
         const movieRating = prompt('На сколько его оцениваете?', '');
     
