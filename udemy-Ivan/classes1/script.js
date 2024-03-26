@@ -72,13 +72,13 @@ const personaMovieDB = {
     }
 };
 
-// personaMovieDB.start();
+personaMovieDB.start();
 
-// personaMovieDB.detectPersonalLevel(personaMovieDB.count);
+personaMovieDB.detectPersonalLevel(personaMovieDB.count);
 
-// personaMovieDB.rememberOfFilms();
+personaMovieDB.rememberOfFilms();
 
-// personaMovieDB.showMyDB();
+personaMovieDB.showMyDB();
 
 personaMovieDB.writeYourGenres();
-//console.log(personaMovieDB);
+console.log(personaMovieDB);
