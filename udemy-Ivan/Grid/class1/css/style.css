@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 82px 390px 82px 390px;
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(2, auto);
+    grid-auto-rows: 260px;
+    gap: 60px;
+}
+
+.grid-element img {
+    width: 100%;
+}
+
+.grid-element-descr {
+    padding-top: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
